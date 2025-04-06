@@ -72,7 +72,8 @@ body{
             margin-bottom: 5px;
         }
         .indications {
-            display: flex;
+            display: flex-item1;
+		flex:1;
             justify-content: space-between;
         }
         .indications div {
