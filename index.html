@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+     <!-- imagem plano de fundo -->
+    
+    <!-- Títulos -->
+    <div class="mycontainer">
+         <img src="https://github.com/jotaifpb/exame/blob/main/img/logocov.png?raw=true" width="120" height="60">
+        <span>
+          <h1>PRESCRIÇÃO ÓPTICA</h1>
+        </span> 
+    </div>
+    <div class="plfundo">
+         <img src="https://github.com/jotaifpb/exame/blob/main/img/saude.png?raw=true"> 
+    </div>
+    <div>
+    <h3> SR(A).:  <input font-size: "16px"; type="text" id="User" class="Nome" name="Name" /></h3>
+  </div>
+    <!-- Tabela Principal -->
+    <table>
+        <thead>
+            <tr>
+                <th>LONGE</th>
+                <th>ESFÉRICO</th>
+                <th>CILINDRO</th>
+                <th>EIXO</th>
+                <th>AVL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>OD</td>
+                <td><input type="text" class="editable" placeholder=""></td>
+                <td><input type="text" class="editable" placeholder=""></td>
+                <td><input type="text" class="editable" placeholder=""></td>
+                <td><input type="text" class="editable" placeholder=""></td>
+            </tr>
+          <tr>
+                <td>OE</td>
+                <td><input type="text" class="editable" placeholder=""></td>
+                <td><input type="text" class="editable" placeholder=""></td>
+                <td><input type="text" class="editable" placeholder=""></td>
+                <td><input type="text" class="editable" placeholder=""></td>
+            </tr>
+            <tr>
+                <td>ADIÇÃO</td>
+                <td><input type="text" class="editable" placeholder=""></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>OD:J</td>
+                            <td>OE:J</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="editable" placeholder=""></td>
+                            <td><input type="text" class="editable" placeholder=""></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>DNP</td>
+                        
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="editable" placeholder=""></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Seção de Indicações -->
+   <h1>INDICAÇÕES</h1>
+    <div class="section-title"></div>
+    <div class="indications">
+        <!-- Primeira Coluna -->
+        <div>
+            <table>
+                <tr>
+                <td><input type="text" class="editable" placeholder=""></td><td>VISÃO SIMPLES</td>
+                <tr>
+                <td><input type="text" class="editable" placeholder=""></td><td>PROGRESSIVA</td>
+              </tr>
+              <tr>
+                <td><input type="text" class="editable" placeholder=""></td><td>KRIPTOK</td>
+                </tr>
+                <tr>
+                  <td><input type="text" class="editable" placeholder=""></td><td>BIOVIS</td>
+              </tr>
+               <tr>
+                  <td><input type="text" class="editable" placeholder=""></td><td>ULTEX</td>
+              </tr>
+            </table>
+        </div>
+        <!-- Segunda Coluna -->
+        <div>
+            <table>
+               <tr>
+                  <td><input type="text" class="editable" placeholder=""></td><td>ANTIRREFLEXO</td>
+              </tr>
+              <tr>
+                <td><input type="text" class="editable" placeholder=""></td><td>FILTRO AZUL</td>
+                </tr>
+                <tr>
+                  <td><input type="text" class="editable" placeholder=""></td><td>FOTOCROMÁTICO</td>
+              </tr>
+               <tr>
+                  <td><input type="text" class="editable" placeholder=""></td><td>ALTO ÍNDICE</td>
+                 <tr>
+                  <td><input type="text" class="editable" placeholder=""></td><td>SOLIC.AV.OFTALMO</td>
+              </tr>
+            </table>
+        </div>
+    </div>
+  <div class="observ">
+   <h3>OBSERVAÇÕES: <input font-size: "11px"; type="text" id="User" class="observ" name="observ" rows="2"</h3>
+  </div>
+  <h3>Recomenda-se renovar o exame
+  anualmente.</h3>
+   <h3>CAMPINA GRANDE, <input class="date"
+  type="text" 
+  placeholder="DD/MM/YYYY" 
+  onfocus="this.type='date'" 
+  onblur="if (!this.value) this.type='text'"
+></h3>
+    <div class="header">
+    <img src="https://github.com/jotaifpb/exame/blob/main/img/l2.jpg?raw=true" width="40" height="40">
+    <img src="https://github.com/jotaifpb/exame/blob/main/img/l3.png?raw=true" width="80" height="40">
+     <img src="https://github.com/jotaifpb/exame/blob/main/img/l1.jpg?raw=true" width="80" height="40">
+    </div>
+    <!-- Botão de Impressão -->
+    <button onclick="window.print()">Imprimir</button>
+</body>
+</html>
